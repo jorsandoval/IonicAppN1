@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   Mivariable = "Hola Buenas Tardes";
+  password = "";
+  usuario = "";
 
   constructor() {}
 

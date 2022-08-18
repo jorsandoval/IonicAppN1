@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Aplicación de Prueba
+      Pruebitas
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,15 +13,16 @@
     </ion-toolbar>
   </ion-header>
 
+
   <div id="container">
     <!--<strong>Ready to create an app?</strong>-->
     <!--<p>Start with Ionic <a target="_blank" rel="noopener  noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>-->
-    <table style="border: 1px solid green;">
+    <!--<table style="border: 1px solid green;">
       <thead>
         <tr>
           <th style="border: 1px solid green;">Name</th>
           <th style="border: 1px solid green;">Phone</th>
-          <th style="border: 1px solid green;">Email</th>
+          <th style="border: 1px solid green;"r>Email</th>
         </tr>
       </thead>
       <tbody>
@@ -33,6 +34,32 @@
       </tbody>
     </table>
     <img src="https://www.visa.es/campaign/HOLA/assets/images/hola-home-image.png" alt="Prueba" width="200px">
+    <ion-card>
+      <img src="https://www.visa.es/campaign/HOLA/assets/images/hola-home-image.png" alt="Prueba" width="200px">
+      <ion-card-header>
+        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        <ion-card-title>Card Title</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Keep close to Naturés heart... And break clear away, once in awhile, and climb a mountain or spend a week in the woods. Wash your spirit clean.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-item>
+      <ion-label>Item 1</ion-label>
+      <ion-reorder slot="end"></ion-reorder>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 2</ion-label>
+      <ion-reorder slot="end"></ion-reorder>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 3</ion-label>
+      <ion-reorder slot="end"></ion-reorder>
+    </ion-item>-->
+    <ion-input type="password" placeholder="Ingrese Clave" [(ngModel)]="password"></ion-input>
+    <ion-input type="text" placeholder="Ingrese Usuario" [(ngModel)]="usuario"></ion-input>
+    <ion-button [routerLink]="['/registro']">Detalles</ion-button>
   </div>
 
 </ion-content>
